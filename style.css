@@ -74,23 +74,38 @@ img {
 
 /* Responsive */
 @media screen and (max-width:420px) {
-  #lezioni .row {
-    display: flex;
-    flex-wrap: wrap;
+
+  .row{
+    width: 100%;
+    margin: 0 auto;
   }
 
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
+    margin: 10px 0;
+  }
+
+  #lezioni img {
+    width: 150px;
+    height: auto;
   }
 
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
     width: 100%;
+    margin: 10px 0;
 }
 
+  #steps img {
+    width: 100px;
+    height: auto;
+  }
 
- 
+  #why img {
+    width: 100px;
+    height: auto;
+  }
 
 }
